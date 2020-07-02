@@ -1,0 +1,56 @@
+/* Importando una fuente externa */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,400&display=swap');
+/* Importando una fuente local */
+@font-face {
+    font-family: goku;
+    src: url("./saiyan_sans/");
+}
+
+body {
+    background: #444;
+    color: white;
+}
+
+.fuentegoku {
+    font-family: "goku";
+    font-size: 20px;
+}
+
+.titulo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+   /*  font-style: italic; */
+}
+
+.tituloh2 {
+   font-family: "Poppins", sans-serif; 
+   font-weight: 400;
+}
+
+.parrafo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.parrafo2 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.titulo3 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 10px; 
+    word-spacing: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subrayado {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

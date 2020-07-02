@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Tablas Simples</h2> 
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>item.</th>
+                        <th>Cant</th>
+                        <th>Descripcion</th>
+                        <th>P.U</th>
+                        <th>P. Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>mouse</td>
+                        <td>30.00</td>
+                        <td>300.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>mouse</td>
+                        <td>30.00</td>
+                        <td>300.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>mouse</td>
+                        <td>30.00</td>
+                        <td>300.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td>-</td>
+                        <td>16</td>
+                        <td>Total</td>
+                        <td>30.00</td>
+                        <td>300.00</td>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+          <!--   <h2>Tablas Simples</h2>     
+            table>(thead>tr>th*5{Cabecera $})+(tbody>tr*3>td*5{contenido $})+(tfoot>tr>td*5{pie $})
+            table>(thead>tr>th*5{Cabecera $})+(tbody>tr*3>td*5{contenido $})+(tfoo>tr>td*5{pie ${ -->
+        </section>
+        <section>
+            <hr />
+            <section>
+                <h2>Tablas con celdas combinadas</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Cabecera 1</th>
+                            <th>Cabecera 2</th>
+                            <th>Cabecera 3</th>
+                            <th>Cabecera 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">Contenido 1</td>
+                            <td colspan="2">Contenido 2</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="3">Total</td>
+                        <td>56</td>
+                    </tfoot>
+                </table>
+            </section>
+            <hr />
+        </section>
+        <section>
+            <h2>Tablas con filas combinadas</h2>
+            <table border="1">
+                <tr>
+                    <td rowspan="3">Fila 1</td>
+                    <td>Fila 1</td>
+                    <td>Fila 1</td>
+                </tr>
+                <tr>
+                   
+                    <td>Fila 2</td>
+                    <td>Fila 2</td>
+                </tr>
+                <tr>
+                   
+                    <td>Fila 3</td>
+                    <td>Fila 3</td>
+                </tr>
+            </table>
+        </section>
+        <hr />
+        <section>
+            <h2>Tablas con filas combinadas</h2>
+            <table border="1" hidden="hidden">
+                <tr>
+                    <td rowspan="3">Fila 1</td>
+                    <td>Fila 1</td>
+                    <td rowspan="3">Fila 1</td>
+                </tr>
+                <tr>
+                   
+                    <td>Fila 2</td>
+                    <!-- <td>Fila 2</td> -->
+                </tr>
+                <tr>
+                   
+                    <td>Fila 3</td>
+                   <!--  <td>Fila 3</td> -->
+                </tr>
+            </table>
+        </section>
+        <hr />
+        <section>
+            <h2>Tablas con filas combinadas</h2>
+            <table border="2">
+                <tr>
+                    <td colspan="3">Alfa</td>
+                    <td>bravo</td>
+                    <td rowspan="2">charlie</td>
+                   <!--  <td>Contenido 04</td>
+                    <td>Contenido 05</td> -->
+                </tr>
+                <tr>
+                    <td>delta</td>
+                    <td>echo</td>
+                    <td>foxtrot</td>
+                    <td>golf</td>
+                </tr>
+                <tr>
+                    <td>hotel</td>
+                    <td colspan="3" rowspan="2">india</td>
+                    <td>juliet</td>
+                </tr>
+                <tr>
+                    <td>kilo</td>
+                    <td>lima</td>
+                </tr>
+                <tr>
+                    <td>Contenido 01</td>
+                    <td>Contenido 02</td>
+                    <td>Contenido 03</td>
+                    <td>Contenido 04</td>
+                    <td>Contenido 05</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
