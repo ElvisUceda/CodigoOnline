@@ -1,0 +1,28 @@
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #34b825;
+    color: white;
+    font-size: 30px; 
+}
+
+/* .caja__padre {
+    width:500px;
+    height:500px;
+    background-color: #aefede;
+    position: relative;
+} */
+
+.caja__hija {
+    position: fixed;
+    top: 100px;
+    bottom:0px;
+    right: 0px;
+    left: 300px;
+}

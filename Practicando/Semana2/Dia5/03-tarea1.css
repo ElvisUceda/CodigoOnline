@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+:root {
+    --color-primario:#eb3d44;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header {
+    height: 60px;
+    background: -webkit-linear-gradient(left, var(--color-primario), #a7696b);
+} */
+
+h1 {
+    color: #444;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+.card {
+    width:300px;
+    height:400px;
+    background-color: white;
+    border-radius: 2px;
+    overflow: hidden;
+   
+}
+
+.card,
+.card * {
+    transition: all 0.2s ease;
+}
+.card__imagen {
+    height: 75%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.card__imagen img {
+    width: 100%;
+    transform: translate(0, -30px);
+}
+
+.card__details {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    border: 1px solid;
+    padding: 7px 14px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+}
+
+.card__info {
+    height: 25%;
+    padding: 20px;
+    position: absolute;   
+   
+}
+
+h3 {
+    color: #444;
+    display: inline-block;
+    
+}
+.card__precio {
+    color: turquoise;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    position: relative;
+    left:75px;
+    display: inline-block;
+}
+
+.card__subtitulo {
+    color: #888;
+    font-weight: 400;
+    position: relative;
+    line-height: 1.5rem;
+    
+}
+
+.card__sizes {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.card__detallemedida {
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+}
+
+.card__colors {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.fab1 {
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    background: #2349C7;
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+}
+.fab2 {
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    background: #C93734;
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+}
+.fab3 {
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    background: #ccc;
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+}
+.fab4 {
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    background: #64CC92;
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .card__imagen {
+    height: 55%;
+}
+
+.card:hover .card__imagen img {
+    filter: brightness(0.5);
+  }
+
+.card:hover .card__info {
+    height: 45%;
+}
+
+.card:hover .card__details {
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+.card:hover .card__sizes {
+    visibility: visible;
+    opacity: 1;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+.card:hover .card__detallemedida {
+    visibility: visible;
+    opacity: 1;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #888;
+    
+}
+
+.card:hover .card__colors {
+    visibility: visible;
+    opacity: 1;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card:hover .fab1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .fab2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .fab3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .fab4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover {
+    box-shadow: #bbb 0px 0px 20px;
+    transform: scale(1.05);
+  }
+
+
